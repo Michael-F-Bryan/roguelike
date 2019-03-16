@@ -1,5 +1,7 @@
 # A Rust Roguelike
 
+[![Build Status](https://travis-ci.com/Michael-F-Bryan/roguelike.svg?branch=master)](https://travis-ci.com/Michael-F-Bryan/roguelike)
+
 ## License
 
 Licensed under either of

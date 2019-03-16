@@ -2,6 +2,9 @@
 name = "roguelike"
 version = "0.1.0"
 authors = ["Michael Bryan <michaelfbryan@gmail.com>"]
+description = "WASM backend for a toy roguelike"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Michael-F-Bryan/roguelike"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
