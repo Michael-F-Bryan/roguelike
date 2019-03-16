@@ -21,7 +21,7 @@ matrix:
       - cd roguelike
       - cargo generate --git .. --name testing
       - mv Cargo.toml Cargo.toml.tmpl
-      - cd testing
+      - cd testing/roguelike
       - wasm-pack build
       - wasm-pack test --chrome --firefox --headless
 
@@ -37,7 +37,7 @@ matrix:
       - cd roguelike
       - cargo generate --git .. --name testing
       - mv Cargo.toml Cargo.toml.tmpl
-      - cd testing
+      - cd testing/roguelike
       - cargo check
       - cargo check --target wasm32-unknown-unknown
       - cargo check                                 --no-default-features
