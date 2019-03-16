@@ -1,1 +1,1 @@
-# A Rust Rogue-like
+# A Rust Roguelike
