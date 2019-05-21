@@ -1,6 +1,34 @@
-# A Rust Roguelike
+# Rogue-Like
 
 [![Build Status](https://travis-ci.com/Michael-F-Bryan/roguelike.svg?branch=master)](https://travis-ci.com/Michael-F-Bryan/roguelike)
+
+
+## Getting Started
+
+Once you have a copy of the source code, make sure the following dependencies
+are installed:
+
+- [Node.JS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/en/)
+- [Rust](https://rustup.rs/)
+
+Next `cd` into the repository and pull down all dependencies.
+
+```console
+yarn install
+```
+
+Building is done with
+
+```console
+npm run build
+```
+
+Or you can start a dev server with
+
+```console
+npm run start
+```
 
 ## License
 
